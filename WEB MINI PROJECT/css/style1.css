@@ -1,0 +1,47 @@
+.center{
+	float: none;
+	display: flex;
+	zoom: 1;
+}
+
+.navstart{
+    width:50%;
+    font-size: medium;
+}
+
+#forgot{
+    margin-top:70px;
+    padding: 40px;
+    background-color: white;
+    width:40%;
+    font-size: medium;
+}   
+
+.nav-link {
+    color:black;
+}
+
+.btn-primary{
+    background-color: black;
+}
+
+body{
+    background-color: rgb(171, 171, 173)
+}
+
+.form-gap {
+    padding-top: 70px;
+}
+
+
+@media(max-width:750px){
+    .navstart{
+        width: 75%;
+        font-size:0.90em;
+    }
+
+    #forgot{
+        width: 75%;
+        font-size:0.90em;
+    }
+}
